@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adi’s Webpage</title>
+    <style>
+        /* Style for the normal state of the first link */
+        #link1 {
+            display: inline-block;
+            color: blue;
+            background-color: lightgray;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        /* Style for the hover state of the first link */
+        #link1:hover {
+            color: white;
+            background-color: darkblue;
+        }
+
+        /* Style for the active state of the first link */
+        #link1:active {
+            color: red;
+            background-color: yellow;
+        }
+
+        /* Style for the visited state of the first link */
+        #link1:visited {
+            color: purple;
+            background-color: lavender;
+        }
+
+        /* Style for the normal state of the second link */
+        #link2 {
+            display: inline-block;
+            color: green;
+            background-color: lightyellow;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        /* Style for the hover state of the second link */
+        #link2:hover {
+            color: white;
+            background-color: darkgreen;
+        }
+
+        /* Style for the active state of the second link */
+        #link2:active {
+            color: orange;
+            background-color: lightgreen;
+        }
+
+        /* Style for the visited state of the second link */
+        #link2:visited {
+            color: brown;
+            background-color: beige;
+        }
+
+        /* Style for the first div */
+        #div1 {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
+	    width: 160px;
+	    text-align: center;
+	    padding: 50px;
+        }
+
+        /* Style for the second div */
+        #div2 {
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid black;
+	    width: 160px;
+	    text-align: center;
+	    padding: 50px;
+        }
+
+        /* Style for the second div when targeted by the first link */
+        #div1:target{
+            background-color: brown;
+	    color: red;
+        }
+	#div2:target{
+	    border: 10px dotted green;
+	    padding: 40px;
+	    background-color: yellow;
+	}
+    </style>
+</head>
+<body>
+
+    <!-- First link -->
+    <a href="#div1" id="link1">Link 1</a>
+    <!-- Second link -->
+    <a href="#div2" id="link2">Link 2</a>
+
+    <br>
+
+    <!-- First div -->
+    <div id="div1">
+        This is the first element.
+    </div>
+
+    <br>
+
+    <!-- Second div -->
+    <div id="div2">
+        This is the second element.
+    </div>
+
+</body>
+</html>
